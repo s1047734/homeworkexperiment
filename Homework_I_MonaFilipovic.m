@@ -14,7 +14,7 @@ imgdata = dir(fullfile(folder, '*.jpg'));
 %Random
 randomorder = randperm(length(imgdata));
 
-for i = 1:15
+for i = 1:10
 %Fadenkreuz
 Screen('TextSize', myWindow, 25);
 DrawFormattedText(myWindow, '+', 'center', 'center', [250 250 250]);
